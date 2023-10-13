@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="normalize.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <title>Responsive Landing page</title>
+</head>
+<body>
+  <header>
+    <div class="dark-header grid">
+      <div class="content">
+        <div class="brand-row">
+          <img class="logo" alt="logo" src="images/logo.png">
+          <h2 class="brand-name">Landing Page</h2>
+        </div>
+        <h1 class="title">Exclusive Course Discounts</h1>
+        <h3 class="sub-title">
+          Be the first to know when my
+          <em>Learn React Today</em>
+          course drops!
+        </h3>
+      </div>
+    </div>
+    <div class="dark-header-divider"></div>
+    <div class="light-header grid">
+      <div class="content">
+        <form class="email-form" action="/email" method="POST">
+          <input type="email" name="email" placeholder="Enter Your Email">
+          <button type="submit">Join Now!</button>
+        </form>
+      </div>
+    </div>
+    <div class="light-header-divider"></div>
+  </header>
+  <main>
+    <section class="grid grid-video">
+      <video poster="thumbnail.jpg" controls>
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      <div class="benefits-section">
+        <div class="benefit">
+          <img src="images/email-icon.svg" alt="email icon">
+          Email Updates
+        </div>
+        <div class="benefit">
+          <img src="images/money-icon.svg" alt="money icon">
+          Special Discounts
+        </div>
+        <div class="benefit">
+          <img src="images/extra-content-icon.svg" alt="extra content icon">
+          Exclusive Discounts
+        </div>
+      </div>
+    </section>
+    <section class="grid grid-benefit-detail">
+      <div class="benefit-detail">
+        <div class="benefit-detail-title">
+          Email Updates
+        </div>
+        <div class="benefit-detail-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </div>
+      </div>
+      <div class="benefit-detail">
+        <div class="benefit-detail-title">
+          Special Discounts
+        </div>
+        <div class="benefit-detail-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          <strong>all future</strong>
+          Web Dev Simplified courses.
+        </div>
+      </div>
+      <div class="benefit-detail">
+        <div class="benefit-detail-title">
+          Extra Content
+        </div>
+        <div class="benefit-detail-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>Designed by <a href="">Fildi Hellen</a></footer>
+</body>
+</html>
